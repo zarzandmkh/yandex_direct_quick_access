@@ -1,0 +1,6 @@
+RewriteEngine On
+# To redirect all users to access the site WITHOUT the 'www.' prefix,
+# (http://www.example.com/... will be redirected to http://example.com/...)
+# uncomment the following:
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
