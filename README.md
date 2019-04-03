@@ -9,7 +9,7 @@ A simple applcation for quckly one click getting your yandex direct account basi
  - groups with rejected status  <br />
 in one window. <br />
  <br />
-1.register application in yandex oauth service https://oauth.yandex.ru/client/new and set 2 certain callback urls <br />
+1.register application in yandex oauth service https://oauth.yandex.ru/client/new slect web-service type and set 2 certain callback urls <br />
  - http://your app domain/yandex_auth.php <br />
  - http://your app domain/yandex_auth_register.php <br />
 (images/app_register_example.png) <br />
